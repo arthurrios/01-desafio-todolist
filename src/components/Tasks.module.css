@@ -1,0 +1,65 @@
+
+
+.header {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header span {
+    font-weight: bold;
+    color: var(--gray-100);
+    background-color: var(--gray-400);
+    box-sizing:  content-box;
+    padding: 2px 8px;
+    border-radius: 999px;
+}
+
+.createdTasks {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.8rem;
+    color: var(--blue)
+    
+}
+
+.doneTasks {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+    color: var(--purple)
+}
+
+.itemsList {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem 1.5rem;
+
+    gap: 1rem;
+    color: var(--gray-300);
+    text-align: center;
+
+    border-top: 1px solid var(--gray-400);
+    border-radius: 0.5rem;
+}
+
+.empty svg {
+  opacity: 0.3;
+}
+
+.empty p {
+  font-weight: bold;
+}
